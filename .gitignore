@@ -9,7 +9,7 @@ __pycache__/
 
 # Entornos virtuales
 venv/
-.env/
+.env
 
 # Jupyter / Colab
 .ipynb_checkpoints/
