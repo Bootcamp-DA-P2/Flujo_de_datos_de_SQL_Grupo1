@@ -58,7 +58,19 @@ La arquitectura de este proyecto se seleccionó para maximizar la eficiencia en 
 
 Sigue estos pasos para replicar el entorno localmente:
 
-1.  **Entorno Virtual:** Crea y activa tu entorno virtual.
-2.  **Dependencias:** Instala las librerías necesarias:
+1.  **Entorno Virtual:** Crea y activa tu entorno virtual para aislar las dependencias del proyecto.
+2.  **Dependencias:** Instala las librerías necesarias ejecutando:
     ```bash
     pip install -r requirements.txt
+    ```
+3.  **Extracción de Datos (SQL a CSV):** Ejecuta el script principal para conectar con la base de datos y generar el archivo de intercambio:
+    ```bash
+    python main.py
+    ```
+    > **Nota:** Este paso procesa los datos de MySQL y los exporta automáticamente a un archivo `.csv` en la carpeta raíz.
+4.  **Visualización y Análisis:** Abre el entorno de Jupyter Notebook y ejecuta el archivo de análisis:
+    ```bash
+    jupyter notebook
+    ```
+    * El notebook cargará el `.csv` generado.
+    * Se mostrarán las tablas de datos procesadas y los gráficos estadísticos resultantes.
