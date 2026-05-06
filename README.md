@@ -14,6 +14,9 @@ El flujo integra `Joins` complejos entre múltiples tablas, validación de integ
 ---
 
 ## 🛠️ Tecnologías Utilizadas
+
+![SQL](https://img.shields.io/badge/SQL-MySQL-orange) ![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue) ![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-green)
+
 El stack técnico seleccionado para este proyecto incluye:
 *   **SQL (MySQL):** Extracción y estructuración de datos relacionales.
 *   **Python 3.x:** Lenguaje principal para el procesamiento de datos.
