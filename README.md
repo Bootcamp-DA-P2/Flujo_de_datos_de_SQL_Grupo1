@@ -14,6 +14,9 @@ El flujo integra `Joins` complejos entre múltiples tablas, validación de integ
 ---
 
 ## 🛠️ Tecnologías Utilizadas
+
+![SQL](https://img.shields.io/badge/SQL-MySQL-orange) ![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue) ![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-green)
+
 El stack técnico seleccionado para este proyecto incluye:
 *   **SQL (MySQL):** Extracción y estructuración de datos relacionales.
 *   **Python 3.x:** Lenguaje principal para el procesamiento de datos.
@@ -39,6 +42,13 @@ Tras exportar los datos, aplicamos técnicas de limpieza profunda:
     *   Conversión de celdas vacías o con espacios en blanco a `NaN`.
     *   Eliminación sistemática de valores nulos para asegurar la calidad.
 *   **Normalización de Texto:** Conversión de strings a minúsculas y eliminación de espacios residuales (*stripping*).
+
+  ### 📈 Visualización del dataset tras pre-limpieza en SQL
+  
+
+![dataset prelimpieza](assets/pre-cleaning.png)
+
+
 
 ---
 
@@ -74,14 +84,3 @@ Sigue estos pasos para replicar el entorno localmente:
     ```
     * El notebook cargará el `.csv` generado.
     * Se mostrarán las tablas de datos procesadas y los gráficos estadísticos resultantes.
-
----
-
-## 📌 Conclusiones
-
-- Los ingresos se concentran en un número reducido de países.
-- La duración de los alquileres varía entre regiones, indicando distintos patrones de uso.
-- No se detectan problemas significativos en la calidad de los datos.
-- El dataset presenta una estructura consistente y adecuada para análisis posteriores.
-
-Este análisis permite comprender mejor el comportamiento de los clientes y detectar posibles oportunidades de optimización en función de la región.
