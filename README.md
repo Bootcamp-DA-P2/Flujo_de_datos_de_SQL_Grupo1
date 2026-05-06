@@ -43,6 +43,13 @@ Tras exportar los datos, aplicamos técnicas de limpieza profunda:
     *   Eliminación sistemática de valores nulos para asegurar la calidad.
 *   **Normalización de Texto:** Conversión de strings a minúsculas y eliminación de espacios residuales (*stripping*).
 
+  ### 📈 Visualización del dataset tras pre-limpieza en SQL
+  
+
+![dataset prelimpieza](assets/pre-cleaning.png)
+
+
+
 ---
 
 ## 🧠 ¿Por qué hemos tomado estas decisiones técnicas?
