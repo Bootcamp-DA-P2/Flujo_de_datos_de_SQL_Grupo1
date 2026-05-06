@@ -74,3 +74,14 @@ Sigue estos pasos para replicar el entorno localmente:
     ```
     * El notebook cargará el `.csv` generado.
     * Se mostrarán las tablas de datos procesadas y los gráficos estadísticos resultantes.
+
+---
+
+## 📌 Conclusiones
+
+- Los ingresos se concentran en un número reducido de países.
+- La duración de los alquileres varía entre regiones, indicando distintos patrones de uso.
+- No se detectan problemas significativos en la calidad de los datos.
+- El dataset presenta una estructura consistente y adecuada para análisis posteriores.
+
+Este análisis permite comprender mejor el comportamiento de los clientes y detectar posibles oportunidades de optimización en función de la región.
