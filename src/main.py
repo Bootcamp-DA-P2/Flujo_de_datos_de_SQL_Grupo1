@@ -9,7 +9,7 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 # 🔹 Conexión
 def conection_bd():
     url_db = f"mysql+mysqlconnector://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:3306/{DB_NAME}"
-    engine = create_engine(url_db)
+    engine = create_engine (url_db)
     return engine.connect()
 
 
